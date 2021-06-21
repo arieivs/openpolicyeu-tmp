@@ -7,10 +7,14 @@ light_blue: rgb(188, 194, 241)*/
 
 
 /*FONTS*/
-/*can we have Circular Std?
-change to Montserrat on headings?*/
+/*can we have Circular Std? change to Montserrat on headings?*/
 /*Roboto*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/*STYLESHEETS*/
+@import url(components/button.css);
+@import url(pages/landing.css);
 
 
 /*TYPOGRAPHY*/
