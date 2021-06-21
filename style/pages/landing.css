@@ -1,11 +1,13 @@
 .header-banner {
   background-image: linear-gradient(rgba(44, 67, 255, 0.45), rgba(44, 67, 255, 0.45)), url(https://res.cloudinary.com/dhnsnkxbe/image/upload/v1624302460/openpolicyeu/christian-lue-8Yw6tsB8tnc-unsplash_co4x0o.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .banner {
   height: 70vh;
   display: flex;
+  justify-content: center;
   align-items: center;
   color: white;
 }

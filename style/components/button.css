@@ -1,0 +1,19 @@
+.btn {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 15px 40px;
+  border-radius: 30px;
+  border: none;
+  margin: 40px 0;
+}
+
+.btn-yllw {
+  color: rgb(44, 67, 255);
+  background-color: rgb(254, 238, 21);
+}
+
+.btn-yllw:hover {
+  background-color: rgb(255, 243, 78);
+}

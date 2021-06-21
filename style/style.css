@@ -1,16 +1,21 @@
 /*COLOURS
 blue: rgb(44, 67, 255)
 yellow: rgb(254, 238, 21)
+light_yellow: rgb(255, 244, 97); -> hover
 dark_grey: rgb(33, 33, 33)
 light_grey: rgb(145, 145, 145)
-light_blue: rgb(188, 194, 241)*/
+light_blue: rgb(188, 194, 241) -> background*/
 
 
 /*FONTS*/
-/*can we have Circular Std?
-change to Montserrat on headings?*/
+/*can we have Circular Std? change to Montserrat on headings?*/
 /*Roboto*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/*STYLESHEETS*/
+@import url(components/button.css);
+@import url(pages/landing.css);
 
 
 /*TYPOGRAPHY*/
