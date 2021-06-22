@@ -28,6 +28,9 @@ h1 {
 }
 
 /*h2 regular, should be light? background*/
+h2 {
+  font-weight: 400;
+}
 
 
 /*LAYOUT*/
@@ -42,6 +45,10 @@ footer {
   background-color: rgb(44, 67, 255);
   color: rgb(188, 194, 241);
   padding: 3em 0;
+}
+
+section {
+  padding: 2.5em 0;
 }
 
 .container {
