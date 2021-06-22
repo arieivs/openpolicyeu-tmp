@@ -38,6 +38,11 @@ body {
 nav {
   padding: 1em 0;
 }
+footer {
+  background-color: rgb(44, 67, 255);
+  color: rgb(188, 194, 241);
+  padding: 3em 0;
+}
 
 .container {
   max-width: 1000px;
