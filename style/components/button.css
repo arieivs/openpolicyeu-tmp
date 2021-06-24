@@ -9,11 +9,20 @@
   margin: 40px 0;
 }
 
+.btn-prim {
+  color: #FFF;
+  background-color: #1267FB;
+}
+
+.btn-prim:hover {
+  background-color: #4185FC;
+}
+
 .btn-yllw {
   color: #1267FB;
   background-color: #FEE74C;
 }
 
 .btn-yllw:hover {
-  background-color: #FEF08D;
+  background-color: #FEEC70;
 }
