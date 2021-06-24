@@ -1,15 +1,21 @@
 /*COLOURS
-blue: rgb(44, 67, 255)
-yellow: rgb(254, 238, 21)
-light_yellow: rgb(255, 244, 97); -> hover
-dark_grey: rgb(33, 33, 33)
-light_grey: rgb(145, 145, 145)
-light_blue: rgb(188, 194, 241) -> background*/
+blue: #1267FB rgb(18, 103, 251)
+blue_hover: #679DFD -> button hover
+blue_light: #B1CDFD -> h3 highlights
+blue_bkg: #F1F6FD -> backgrounds
+
+yellow: #FEE74C
+yellow_hover: #FEF08D -> button hover
+
+grey_dark: rgb(33, 33, 33) -> body font
+grey_light: rgb(145, 145, 145)
+*/
 
 
 /*FONTS*/
-/*can we have Circular Std? change to Montserrat on headings?*/
-/*Roboto*/
+/*TO THINK: Headings: Montserrat*/
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');*/
+/*Body: Roboto*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
@@ -27,7 +33,7 @@ h1 {
   font-weight: bold;
 }
 
-/*h2 regular, should be light? background*/
+/*TODO: h2/h3 background/highlihgts -> mark*/
 
 
 /*LAYOUT*/
