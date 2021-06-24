@@ -33,6 +33,12 @@ h1 {
   font-weight: bold;
 }
 
+
+/*h2 regular, should be light? background*/
+h2 {
+  font-weight: 400;
+}
+
 /*TODO: h2/h3 background/highlihgts -> mark*/
 
 
@@ -43,6 +49,16 @@ body {
 
 nav {
   padding: 1em 0;
+  color: white;
+}
+footer {
+  background-color: rgb(44, 67, 255);
+  color: rgb(188, 194, 241);
+  padding: 3em 0;
+}
+
+section {
+  padding: 2.5em 0;
 }
 
 .container {
@@ -65,4 +81,6 @@ nav {
   padding-right: 40px;
 }
 
-
+.background-blue {
+  background-color: rgb(188, 194, 241, 0.2);
+}
