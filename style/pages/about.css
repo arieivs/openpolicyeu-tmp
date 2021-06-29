@@ -1,0 +1,13 @@
+nav {
+    color: black;
+    padding: 20px 0;
+    font-weight: 600;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+main {
+    margin-top: 40px;
+}
+
+.container-half {
+    width: 50%;
+}
