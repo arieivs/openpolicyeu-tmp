@@ -13,14 +13,24 @@ footer i {
   font-size: 28px;
 }
 
-footer p {
-  margin: auto 0 0 0;
-}
-
 .footer-link {
   color: #B1CDFD;
 }
 
 .footer-link:hover {
   color: white;
+}
+
+footer p {
+  margin: auto 0 0 0;
+}
+
+@media (max-width: 840px) {
+  footer {
+    text-align: center;
+  }
+
+  footer p {
+    margin-top: 30px;
+  }
 }

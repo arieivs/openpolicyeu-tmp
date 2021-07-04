@@ -92,11 +92,13 @@ body {
 
 .container {
   max-width: 1000px;
+  padding: 0 30px;
   margin:  0 auto;
 }
 
 .container-short {
   max-width: 700px;
+  padding: 0 30px;
   margin:  0 auto;
 }
 
@@ -123,7 +125,17 @@ body {
   justify-content: space-between;
 }
 
-/*TODO: media-queries*/
+@media (max-width: 840px) {
+  .container-half {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .flex-between {
+    flex-direction: column;
+  }
+}
 
 .blockquote {
   display: flex;
