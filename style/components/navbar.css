@@ -4,6 +4,10 @@ nav {
   font-weight: 300;
 }
 
+nav li {
+  padding-right: 40px;
+}
+
 nav a {
   text-decoration: none;
 }

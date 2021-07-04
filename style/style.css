@@ -102,6 +102,11 @@ section {
   align-items: center;
 }
 
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 .margin-right {
   margin-right: 30px;
 }
@@ -126,7 +131,6 @@ section {
 
 .horizontal-list li {
   display: inline-block;
-  padding-right: 40px;
 }
 
 .bkg-blue {
