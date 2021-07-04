@@ -92,14 +92,14 @@ section {
   margin:  0 auto;
 }
 
+.container-half {
+  width: 50%;
+}
+
 .flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.container-half {
-  width: 50%;
 }
 
 .margin-right {
