@@ -111,19 +111,32 @@ section {
   justify-content: space-between;
 }
 
-.margin-right {
-  margin-right: 30px;
+/*TODO: media-queries*/
+
+.blockquote {
+  display: flex;
+  width: 90%;
+  margin: 2em 0 2em auto;
+  position: relative;
 }
 
-.margin-left {
-  margin-left: 30px;
+.blockquote p {
+  z-index: 1;
+  margin: 0;
+}
+
+.blockquote-bar {
+  min-width: 1.5em;
+  height: 100%;
+  background-color: #B1CDFD;
+  position: absolute;
+  left: -0.8em;
 }
 
 .mg-vert {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-/*TODO: media-queries*/
 
 .text-center {
   text-align: center;
