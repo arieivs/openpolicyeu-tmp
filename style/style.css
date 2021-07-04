@@ -27,10 +27,14 @@ grey_light: rgb(145, 145, 145)
 /*TYPOGRAPHY*/
 body {
   font-family: Roboto, sans-serif;
+  line-height: 1.5;
 }
 
 h1 {
   font-weight: bold;
+}
+nav a {
+  text-decoration: none;
 }
 
 
@@ -84,6 +88,7 @@ section {
 .horizontal-containers {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .container-footer {
