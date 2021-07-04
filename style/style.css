@@ -72,6 +72,22 @@ mark::after {
   background-color: #B1CDFD;
 }
 
+.text-link {
+  color: #1267FB;
+  text-decoration: none;
+  border-bottom: 2px solid #1267FB;
+}
+
+.text-link:visited {
+  color: #000DFF;
+  border-bottom: 2px solid #2313f9;
+}
+
+.text-link:hover {
+  color: #4185FC;
+  border-bottom: 2px solid #4185FC;
+}
+
 
 /*LAYOUT*/
 body {
