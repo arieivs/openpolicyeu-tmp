@@ -4,7 +4,7 @@ blue_hover: #4185FC -> button hover
 blue_light: #B1CDFD -> h3 highlights
 blue_bkg: #F1F6FD -> backgrounds
 
-yellow: #FEE74C
+yellow: #FEE74C -> h2 highlights
 yellow_hover: #FEEC70 -> button hover
 
 grey_dark: rgb(33, 33, 33) -> body font
@@ -37,12 +37,21 @@ h1 {
   font-weight: bold;
 }
 
-/*h2 regular, should be light? background*/
 h2 {
   font-weight: 400;
 }
 
-/*TODO: h2/h3 background/highlihgts -> mark*/
+h3 {
+  font-weight: 400;
+}
+
+.mark-yllw {
+  background-color: #FEE74C;
+}
+
+.mark-blue {
+  background-color: #B1CDFD;
+}
 
 
 /*LAYOUT*/
@@ -56,6 +65,11 @@ section {
 
 .container {
   max-width: 1000px;
+  margin:  0 auto;
+}
+
+.container-short {
+  max-width: 700px;
   margin:  0 auto;
 }
 
@@ -96,6 +110,6 @@ section {
   padding-right: 40px;
 }
 
-.background-blue {
+.bkg-blue {
   background-color: #F1F6FD;
 }
