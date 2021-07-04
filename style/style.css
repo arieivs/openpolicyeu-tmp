@@ -30,6 +30,7 @@ grey_light: rgb(145, 145, 145)
 /*TYPOGRAPHY*/
 body {
   font-family: Roboto, sans-serif;
+  font-size:  18px;
   line-height: 1.5;
 }
 
@@ -78,7 +79,7 @@ body {
 }
 
 section {
-  padding: 2.5em 0; /* Hmmm... */
+  padding: 50px 0;
 }
 
 .container {

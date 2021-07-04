@@ -7,11 +7,26 @@ nav a {
   text-decoration: none;
 }
 
-.navbar-transp {
+.navbar-transp a {
   color: white;
 }
 
+.navbar-transp a:hover {
+  color: #FEE74C;
+}
+
+.navbar-transp .active {
+  border-bottom: 2px solid white;
+}
+
+.navbar-transp .active:hover {
+  border-bottom: 2px solid #FEE74C;
+}
+
 .navbar {
-  color: black;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  color: black;
 }
