@@ -108,6 +108,10 @@ body {
   width: 48%;
 }
 
+.container-half img {
+  max-height: 350px;
+}
+
 .flex-center {
   display: flex;
   justify-content: center;
@@ -147,7 +151,7 @@ body {
 }
 
 .pd-vert {
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 50px;
 }
 
