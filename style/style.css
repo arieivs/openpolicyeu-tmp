@@ -140,6 +140,13 @@ body {
   .flex-between {
     flex-direction: column;
   }
+
+  .mg-left {
+    margin-left: 0px !important;
+  }
+  .container-mid {
+    width: 100%;
+  }
 }
 
 .blockquote {
