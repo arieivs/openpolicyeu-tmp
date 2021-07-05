@@ -25,6 +25,7 @@ grey_light: rgb(145, 145, 145)
 @import url(components/footer.css);
 @import url(pages/landing.css);
 @import url(pages/about.css);
+@import url(pages/join.css);
 
 
 /*TYPOGRAPHY*/
