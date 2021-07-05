@@ -111,6 +111,10 @@ body {
   width: 48%;
 }
 
+.container-mid {
+  width: 80%;
+}
+
 .container-half img {
   max-height: 350px;
 }
@@ -161,6 +165,10 @@ body {
 .mg-vert {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.mg-left {
+  margin-left: 150px;
 }
 
 .pd-vert {
