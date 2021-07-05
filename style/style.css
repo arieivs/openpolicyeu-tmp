@@ -130,25 +130,6 @@ body {
   justify-content: space-between;
 }
 
-@media (max-width: 840px) {
-  .container-half {
-    width: 100%;
-    max-width: 700px;
-    margin: 0 auto;
-  }
-
-  .flex-between {
-    flex-direction: column;
-  }
-
-  .mg-left {
-    margin-left: 0px !important;
-  }
-  .container-mid {
-    width: 100%;
-  }
-}
-
 .blockquote {
   display: flex;
   width: 90%;
@@ -202,4 +183,23 @@ body {
 
 .bkg-blue {
   background-color: #F1F6FD;
+}
+
+@media (max-width: 840px) {
+  .container-half {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .flex-between {
+    flex-direction: column;
+  }
+
+  .mg-left {
+    margin-left: 0;
+  }
+  .container-mid {
+    width: 100%;
+  }
 }
