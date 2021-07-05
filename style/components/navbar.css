@@ -1,0 +1,45 @@
+nav {
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+nav li {
+  padding-right: 40px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.navbar-transp a {
+  color: white;
+}
+
+.navbar-transp a:hover {
+  color: #FEE74C;
+}
+
+.navbar-transp .active {
+  border-bottom: 2px solid white;
+}
+
+.navbar-transp .active:hover {
+  border-bottom: 2px solid #FEE74C;
+}
+
+.navbar a {
+  color: #1267FB;
+}
+
+.navbar a:hover {
+  color: #4185FC;
+}
+
+.navbar .active {
+  border-bottom: 2px solid #1267FB;
+}
+
+.navbar .active:hover {
+  border-bottom: 2px solid #4185FC;
+}
