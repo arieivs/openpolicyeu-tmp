@@ -185,7 +185,7 @@ body {
   background-color: #F1F6FD;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 880px) {
   .container-half {
     width: 100%;
     max-width: 700px;
