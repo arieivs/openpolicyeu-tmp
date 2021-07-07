@@ -52,3 +52,9 @@
     left: 100;
   }
 }
+
+@media (max-width: 440px) {
+  .team-description h3 {
+    top: -60;
+  }
+}
