@@ -111,10 +111,6 @@ body {
   width: 48%;
 }
 
-.container-mid {
-  width: 80%;
-}
-
 .container-half img {
   max-height: 350px;
 }
@@ -155,8 +151,8 @@ body {
   margin-bottom: 50px;
 }
 
-.mg-left {
-  margin-left: 150px;
+.mg-bottom {
+  margin-bottom: 50px;
 }
 
 .pd-vert {
@@ -194,12 +190,5 @@ body {
 
   .flex-between {
     flex-direction: column;
-  }
-
-  .mg-left {
-    margin-left: 0;
-  }
-  .container-mid {
-    width: 100%;
   }
 }
