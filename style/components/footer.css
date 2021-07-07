@@ -21,7 +21,11 @@ footer i {
   color: white;
 }
 
-footer p {
+.email {
+  margin-bottom: 0;
+}
+
+.origins {
   margin: auto 0 0 0;
 }
 
@@ -30,7 +34,7 @@ footer p {
     text-align: center;
   }
 
-  footer p {
+  .origins {
     margin-top: 30px;
   }
 }
