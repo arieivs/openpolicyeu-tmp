@@ -1,5 +1,10 @@
+.teams h3 {
+  margin-top: 0;
+}
+
 .icon-large {
-    font-size: 100px;
-    color: #1267FB;
-    margin-right: 50px;
+  font-size: 80px;
+  color: #B1CDFD;
+  padding-top: 10px;
+  margin-right: 50px;
 }
