@@ -9,12 +9,12 @@
 
 .team-left {
   display: flex;
-  align-self: start;
+  align-self: flex-start;
 }
 
 .team-right {
   display: flex;
-  align-self: end;
+  align-self: flex-end;
 }
 
 .icon-large {
